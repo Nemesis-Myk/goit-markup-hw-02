@@ -13,9 +13,8 @@ body {
   text-decoration: none;
 }
 
-.bar .link {
+.link {
   color: #2e2f42;
-  font-family: "Roboto", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 500;
@@ -56,17 +55,16 @@ body {
   font-size: 56px;
   letter-spacing: 0.02em;
   font-weight: 700;
-  line-height: 1.07143;
+  line-height: 1.07;
   color: #ffffff;
   text-align: center;
 }
 
 .sub-title {
-  font-family: "Roboto", "Raleway", sans-serif;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.02em;
-  line-height: 1.11111;
+  line-height: 1.11;
 }
 
 .team .sub-title {
@@ -85,23 +83,26 @@ body {
   background-color: #ffffff;
 }
 
-.team .sstitle {
-  font-family: "Roboto", "Raleway", sans-serif;
+.sstitle {
   font-size: 20px;
   letter-spacing: 0.02em;
   font-weight: 500;
-  text-align: center;
   line-height: 1.2;
 }
 
-.team .sstitle-text {
-  color: #434455;
+.team .sstitle {
   text-align: center;
+}
+.sstitle-text {
+  color: #434455;
   line-height: 1.5;
 }
 
+.team .sstitle-text {
+  text-align: center;
+}
+
 .btn {
-  font-family: "Roboto", "Raleway", sans-serif;
   font-size: 16px;
   letter-spacing: 0.04em;
   line-height: 1.5;
@@ -125,13 +126,13 @@ body {
 }
 
 .logo-top {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
   color: #2e2f42;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
@@ -146,12 +147,12 @@ body {
 }
 
 .logo-btm {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
   color: #f4f4fd;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
