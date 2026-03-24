@@ -18,6 +18,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 500;
+  font-size: 16px;
 }
 
 .link:hover,
@@ -27,9 +28,11 @@ body {
 
 .mail {
   font-style: normal;
+  font-size: 16px;
   text-decoration: none;
   color: #434455;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .mail:hover,
@@ -39,9 +42,11 @@ body {
 
 .tel {
   font-style: normal;
+  font-size: 16px;
   text-decoration: none;
   color: #434455;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .tel:hover,
@@ -67,12 +72,20 @@ body {
   line-height: 1.11;
 }
 
-.team .sub-title {
+.team-title {
   text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
 }
 
-#products {
+.products-sub-title {
   text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
 }
 
 .team {
@@ -90,16 +103,22 @@ body {
   line-height: 1.2;
 }
 
-.team .sub-sub-title {
+.team-sub-title {
   text-align: center;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.2;
 }
 .sstitle-text {
   color: #434455;
   line-height: 1.5;
 }
 
-.team .sstitle-text {
+.team-text {
   text-align: center;
+  color: #434455;
+  line-height: 1.5;
 }
 
 .btn {
@@ -126,7 +145,7 @@ body {
 }
 
 .logo-top {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
@@ -147,7 +166,7 @@ body {
 }
 
 .logo-bottom {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
