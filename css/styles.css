@@ -20,8 +20,8 @@ body {
   font-weight: 500;
 }
 
-.bar .link:hover,
-.bar .link:focus {
+.link:hover,
+.link:focus {
   color: #404bbf;
 }
 
@@ -71,7 +71,7 @@ body {
   text-align: center;
 }
 
-.products .sub-title {
+#products {
   text-align: center;
 }
 
@@ -79,18 +79,18 @@ body {
   background-color: #f4f4fd;
 }
 
-.members li {
+.members {
   background-color: #ffffff;
 }
 
-.sstitle {
+.sub-sub-title {
   font-size: 20px;
   letter-spacing: 0.02em;
   font-weight: 500;
   line-height: 1.2;
 }
 
-.team .sstitle {
+.team .sub-sub-title {
   text-align: center;
 }
 .sstitle-text {
@@ -121,7 +121,7 @@ body {
   color: #4d5ae5;
 }
 
-.logo-btm .accent {
+.logo-bottom .accent {
   color: #4d5ae5;
 }
 
@@ -136,7 +136,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.btm {
+.bottom {
   background-color: #2e2f42;
 }
 
@@ -146,7 +146,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.logo-btm {
+.logo-bottom {
   font-family: "Raleway";
   font-size: 18px;
   font-weight: 700;
